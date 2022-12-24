@@ -1,4 +1,4 @@
-with open("Dia 01/dia01.txt") as f:
+with open("inputs/input01.txt") as f:
     data = [i for i in f.read().strip().split("\n")]
 
 # Pt 1
