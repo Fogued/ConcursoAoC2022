@@ -6,18 +6,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class dia02 {
+    static int rock = 1;
+    static int paper = 2;
+    static int scissors = 3;
+
+    static int loss = 0;
+    static int draw = 3;
+    static int win = 6;
+
+    static Map<String, Integer> map = new HashMap<String, Integer>();
 
     public class dia02pt1 {
-        static int rock = 1;
-        static int paper = 2;
-        static int scissors = 3;
-
-        static int loss = 0;
-        static int draw = 3;
-        static int win = 6;
 
         public static void main(String[] args) throws Exception {
-            Map<String, Integer> map = new HashMap<String, Integer>();
             map.put("A", rock);
             map.put("B", paper);
             map.put("C", scissors);
@@ -50,16 +51,8 @@ public class dia02 {
     }
 
     public class dia02pt2 {
-        static int rock = 1;
-        static int paper = 2;
-        static int scissors = 3;
-
-        static int loss = 0;
-        static int draw = 3;
-        static int win = 6;
 
         public static void main(String[] args) throws Exception {
-            Map<String, Integer> map = new HashMap<String, Integer>();
             map.put("A", rock);
             map.put("B", paper);
             map.put("C", scissors);
